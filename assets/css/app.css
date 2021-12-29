@@ -1,0 +1,134 @@
+/*
+    Customized CSS for APP
+    Developed on 12/Oct/2021
+*/
+
+
+/* @media all and (min-width: 992px) { */
+
+@media all and (min-width: 360px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {}
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+/*
+    Damion font added
+*/
+@font-face {
+    font-family: damionFont;
+    src: url(Damion-Regular.ttf);
+}
+
+/*
+    Ephesis font added
+*/
+@font-face {
+    font-family: ephesisFont;
+    src: url(Ephesis-Regular.ttf);
+}
+
+/*
+    Page title
+*/
+.page-title{
+    font-family: ephesisFont,cursive;
+    /*opacity: 0.1;*/
+    font-weight: normal;
+    font-size: 2rem;
+
+}
+
+/* zoom */
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/* scroll indicator */
+.scroll-progress-bar {
+    /*margin-bottom: 70px;*/
+    width: 0%;
+    height: 4px;
+    background-color: #003b5c;
+    position: fixed;
+    left: 0px;
+    top: 0%;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #003b5c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #003b5c;
+}
+
+/*
+    Error page CSS
+*/
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url("../img/404/error.gif");
+    height: 400px;
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}

@@ -1,0 +1,25 @@
+[
+
+    {
+        "id": 1,
+        "menuName": "About",
+        "url": "/about"
+    },
+    {
+        "id": 2,
+        "menuName": "Lab Consulting",
+        "url": "/lab-consulting"
+
+    },
+    {
+        "id": 3,
+        "menuName": "Design Consulting",
+        "url": "/design-consulting"
+
+    },
+    {
+        "id": 4,
+        "menuName": "Contact",
+        "url": "/contact"
+    }
+]
