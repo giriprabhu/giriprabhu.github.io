@@ -1,6 +1,6 @@
 [
 	{
 		"id":1,
-		"desc":"<div class='col-lg-12'><p>Aerodynamic Lab, which is the oldest domain of aeronautical. This laboratory will increase the basic knowledge of Aeronautics and studies. This laboratory includes numerical like equipment, wind-tunnels, propeller test bench and etc. To enquire more about scheduling a call here.</p></div>"
+		"desc":"<div class='col-lg-12'><p>Aerodynamic Lab, which is the oldest domain of aeronautical. This laboratory will increase the basic knowledge of Aeronautics and studies. This laboratory includes numerical like equipment, wind-tunnels, propeller test bench and etc. </p></div><div class='col-lg-12 '> To enquire more about <strong>Aerodynamic Labs</strong> schedule a<button class='cta'> <span class='hover-underline-animation'><a class='text-muted' style='text-decoration:none;' href='/contact'> call here !</a></span> <svg id='arrow-horizontal' xmlns='http://www.w3.org/2000/svg' width='30' height='10' viewBox='0 0 46 16'> <path id='Path_10' data-name='Path 10' d='M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z' transform='translate(30)'></path> </svg> </button></div>"
 	}
 ]
